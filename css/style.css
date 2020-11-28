@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.body {
+    background-color: rgb(228, 222, 222);
+}
+
+/*PREHEADER*/
+
+.pre-header {
+    height: 69px;
+    border-bottom: 1px solid #b4b4b4;
+    -webkit-box-shadow: 1px 0px 5px -5px rgba(43, 43, 43, 0.75);
+    -moz-box-shadow: 1px 0px 5px -5px rgba(53, 53, 53, 0.75);
+    box-shadow: 1px 0px 5px -5px rgba(59, 59, 59, 0.75);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.pre-header .logo {
+    margin: 14px;
+    color: #6d6e71;
+    font-family: 'Ubuntu', sans-serif;  
+    font-size: 25px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    border-bottom: 4px solid rgb(0, 140, 255);
+    border-image: linear-gradient(45deg, rgb(51, 255, 0), rgb(4, 194, 252), rgb(146, 3, 241)) 1;
+}
+
+
+.pre-header a {
+    text-decoration: none;
+}
+
+
+/*MENU*/
+
+.main-menu {
+    height: 85px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 0px 0px 20px 20px;
+    -webkit-box-shadow: 0px 10px 9px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 9px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 9px -8px rgba(0,0,0,0.75);
+}
+
+.main-menu ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.main-menu .razred {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+     
+.main-menu .godina {
+    color: #6D6E71;
+    font: 700;
+    padding-left: 28px;
+}
+
+.main-menu .skola {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 23px;
+    font-size: 12px;
+    border-left: 2px solid rgb(192, 192, 192);
+}
+
+/*MAIN*/
+
+.main {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 12px;
+    height: 500px;
+    -webkit-box-shadow: 1px 0px 15px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 15px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 15px -5px rgba(0,0,0,0.75);
+    border-radius: 20px 20px 20px 20px;
+}
+
+                             /*OCIJENE*/
+
+.main h3 {
+    margin-left: 12px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.main .secondary-menu ul{
+    font-size: 15px;
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.main .secondary-menu li {
+
+    margin-left: 15px;
+    display: inline;
+    padding: 6px;
+    border: 1px solid #6D6E71;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    
+}
+
+.main ul .li1 {
+    opacity: 50%;
+}
+
+
+.main .predmeti { 
+    padding: 4px; 
+    width: 500px; 
+    height: 380px;  
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+
+
+
+.main .predmeti ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.main .predmeti li{
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #dbdbdb;
+    width: 65%;
+}
+
+
+/*FOOTER*/
+
+.footer-section .carnet-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    height: 20px;
+}
+
+.footer-section p {
+    text-align: center;
+    font-size: 15px;
+}
